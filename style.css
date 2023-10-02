@@ -1,0 +1,65 @@
+*{ 
+	box-sizing: border-box;
+}
+body{
+background-color: black;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 70px;
+}
+.ul{
+	list-style: none;
+	display: flex;
+	margin-left: 500px;
+	cursor: pointer;
+}
+.ul li{
+margin-left: 15px;
+text-transform: capitalize;
+}
+.ul li:hover{
+color: green;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ulli{
+	list-style: none;
+}
+.ulli li{
+	margin: 25px;
+
+}
+@media (max-width: 767px) {
+  
+.ul{
+		display: none;{
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
